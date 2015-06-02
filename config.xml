@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.tkf1997.blockninja"
+        versionCode = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Block Ninja</name>
+
+    <description>
+        Simple yet frustrating game.
+    </description>
+
+    <author href="https://build.phonegap.com" email="tkf1997@outlook.com">
+        Tee Kai Feng 
+    </author>
+    
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    
+    <access />
+    
+    <gap:platform name="winphone" />
+
+</widget>
